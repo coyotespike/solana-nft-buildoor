@@ -1,0 +1,57 @@
+{
+  "program": {
+    "candyMachine": "HkufCfprttq1yXi5AZ7UwjaHLXpSJXxnX1Wh23S8A4Wr",
+    "candyMachineCreator": "Au4ggeXkdnYqucYQ61cZDpX9BLcwUNW93FPoUBzrrLoq",
+    "collectionMint": "H8qKX3RGYif5QK2pcqEAat3MAQYMxso55mqhnaB6ix9C"
+  },
+  "items": {
+    "-1": {
+      "name": "Founding Fathers Collection",
+      "image_hash": "f8d340f3ab4d7c3ba0f6826014be7fa903845f69bb085c869b76a218242adcc4",
+      "image_link": "https://arweave.net/uCDwRjgbbSZxw7E53SYGP69C5vQgD9QhRlRW3TVt6Ho?ext=jpeg",
+      "metadata_hash": "2cb68fd991509d1a62099fb447b3c1b3f8b4cf2030efcc7a74696106a4c4682d",
+      "metadata_link": "https://arweave.net/OuYeOO9x3thbJUq0gKtuaGkyS86UWZY3kkrrrDJ0eL8",
+      "onChain": true
+    },
+    "0": {
+      "name": "George Washington",
+      "image_hash": "b1a79014cd4af6946dc48a806f744e2b509cd6b9365e3945f8afeee4b68ede0f",
+      "image_link": "https://arweave.net/hc_L-vkoYLgVjJAUjdZZsFCx7s6UT6fUg93AiHDjYcU?ext=jpeg",
+      "metadata_hash": "74598d858eae1fa9e638308bdc361384157f43ab346d27a59bef70cb9c9d46a4",
+      "metadata_link": "https://arweave.net/iQjTKmVDUAtPD_TiDz6CMImNQc4G6Dsv8K-5kX1-Zxk",
+      "onChain": true
+    },
+    "1": {
+      "name": "Thomas Jefferson",
+      "image_hash": "de0ea9176557826fb5653a2716abb831cc77b6e1bb49f6f86b22bf24b960647d",
+      "image_link": "https://arweave.net/JVZjymVRew1GIps0QvoyPCiq9dSUzxEEVptSmju3mQo?ext=jpeg",
+      "metadata_hash": "76e2a090bf3113bb6d3bbcbe5806c6b6e6a1edc1ba7b9f24f67f31699963ed64",
+      "metadata_link": "https://arweave.net/PECBXiqcQeSqHGbsJcjsUq-bwByBXW2IWx7ygTV89g0",
+      "onChain": true
+    },
+    "2": {
+      "name": "John Adams",
+      "image_hash": "d3f91a08fbd5ece66222c9ec72ba12fd0619c65ef31bb40e42c76c6251e095fd",
+      "image_link": "https://arweave.net/xtqx-BnnGVgZiz6JmTbUHDsrxi59BKkTbCiEqEIwamo?ext=jpeg",
+      "metadata_hash": "71bee776f629740d3c7a32748cd8b5de5c3ffdbc2220700eb7efdfb763c3d117",
+      "metadata_link": "https://arweave.net/veDnBeF86tyZ41mzIs5TU6c9cQa3AZszTXu_c00C7JQ",
+      "onChain": true
+    },
+    "3": {
+      "name": "Ben Franklin",
+      "image_hash": "7e64d3c42f5dc2aca8ce44e8df858fe517f8683c6f49cbda1c7ce0c8143b5190",
+      "image_link": "https://arweave.net/rzXlv7pWR-S6DW92HBjFey52YAJM9GuIqrHYYExnkWc?ext=jpeg",
+      "metadata_hash": "b96931baf2df36dfbd688863ed7e7186a3581dc7fb09fc3d8c36863044ec3e7d",
+      "metadata_link": "https://arweave.net/AmEGTm8IS21r9QwQGgVCgX7uB1QyAZhtdQX2V0c5kOQ",
+      "onChain": true
+    },
+    "4": {
+      "name": "Alexander Hamilton",
+      "image_hash": "143a1d90f1fa30147f221b0aa1877c3c03e055fb9867fc6caac5382da5157023",
+      "image_link": "https://arweave.net/t7KTVdrbMIh4MfuncMw9v8bKk4D0qUj1bxaVXOnbe3M?ext=jpeg",
+      "metadata_hash": "43c1a5d6e752f6951fe56e7a3e6e0543fa4f062a4b1ce3944143e6af80298ecf",
+      "metadata_link": "https://arweave.net/j20vt2EzgBk7DNVp8Z7V8Pls0DNKKC4wbLRqoh1SUT8",
+      "onChain": true
+    }
+  }
+}

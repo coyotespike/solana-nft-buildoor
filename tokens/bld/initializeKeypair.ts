@@ -19,6 +19,10 @@ export async function initializeKeypair(
   const secret = JSON.parse(process.env.PRIVATE_KEY ?? "") as number[];
   const secretKey = Uint8Array.from(secret);
   const keypairFromSecretKey = web3.Keypair.fromSecretKey(secretKey);
+  console.log(
+    "Using existing keypair: ",
+    keypairFromSecretKey.publicKey.toString()
+  );
   await airdropSolIfNeeded(keypairFromSecretKey, connection);
   return keypairFromSecretKey;
 }
@@ -49,3 +53,18 @@ async function airdropSolIfNeeded(
     console.log("New balance is", newBalance / web3.LAMPORTS_PER_SOL);
   }
 }
+
+async function main() {
+  const connection = new web3.Connection(web3.clusterApiUrl("devnet"));
+  const payer = await initializeKeypair(connection);
+}
+
+main()
+  .then(() => {
+    console.log("Finished successfully");
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.log(error);
+    process.exit(1);
+  });
