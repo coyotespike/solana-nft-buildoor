@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import MainLayout from "./MainLayout";
+import MainLayout from "../components/MainLayout";
 import {
   Container,
   Heading,
@@ -33,7 +33,6 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
     metaplex
       .nfts()
       .findByMint({ mintAddress: mint })
-      .run()
       .then((nft) => {
         fetch(nft.uri)
           .then((res) => res.json())
@@ -50,14 +49,14 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
 
   return (
     <MainLayout>
-      <VStack spacing={20}>
+      <VStack spacing={21}>
         <Container>
           <VStack spacing={8}>
-            <Heading color="white" as="h1" size="2xl" textAlign="center">
+            <Heading color="red" as="h1" size="2xl" textAlign="center">
               😮 A new buildoor has appeared!
             </Heading>
 
-            <Text color="bodyText" fontSize="xl" textAlign="center">
+            <Text color="black" fontSize="xl" textAlign="center">
               Congratulations, you minted a lvl 1 buildoor! <br />
               Time to stake your character to earn rewards and level up.
             </Text>
