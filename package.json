@@ -2,7 +2,6 @@
   "name": "nft-buildoor",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "create-bld-token": "npx tsx ./tokens/bld/index.ts",
