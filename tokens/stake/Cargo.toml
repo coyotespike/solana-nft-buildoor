@@ -1,0 +1,16 @@
+[package]
+name = "stake"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+borsh = "0.9.3"
+solana-program = "1.14.7"
+thiserror = "1.0.37"
+
+[lib]
+name = "staker"
+path = "src/lib.rs"
+crate-type = ["cdylib", "lib"]
