@@ -2,6 +2,8 @@
 use solana_program::{ program_error::ProgramError };
 
 // represents each discrete instruction that can be sent to the program
+// however there is nothing inside each type
+// therefore our client should send nothing but the variant
 pub enum StakeInstruction {
     InitializeStakeAccount,
     Stake,
